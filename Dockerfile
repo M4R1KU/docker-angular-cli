@@ -1,4 +1,4 @@
-FROM node:8.7.0
+FROM node:9.11
 
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install \
