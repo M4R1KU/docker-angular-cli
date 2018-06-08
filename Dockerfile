@@ -1,7 +1,7 @@
 FROM node:9.11
 
 RUN apt-get update && apt-get upgrade -y && \
-    apt-get install \
+    apt-get install -y \
         apt-transport-https \
         ca-certificates \
         curl \
